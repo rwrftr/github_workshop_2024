@@ -1,0 +1,24 @@
+IMPORTANT GIT COMMANDS
+    
+    git status
+
+    git clone repo_url
+        will access the repo url and download all the contents from that repo url
+        onto the directory where this command was ran
+
+    git init
+        run in folder you want to start using git inside of
+
+    git add
+        tell git ehat chanfged or added files should be selected for "saving"
+        EX: git add [name of changed file(s) to be saved]
+
+    git commit
+        tell git to actually save what you have selected. -m adds a string description of what you saved
+        EX: git commit -m "message here"
+
+    git push
+        tell git to push your saved changes to an external source. Usually that source is github
+        EX: git push [url] -u main
+
+
