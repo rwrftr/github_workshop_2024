@@ -9,7 +9,7 @@ IMPORTANT GIT COMMANDS
     git init
         run in folder you want to start using git inside of
 
-    git add
+    git add .
         tell git ehat chanfged or added files should be selected for "saving"
         EX: git add [name of changed file(s) to be saved]
 
@@ -21,11 +21,15 @@ IMPORTANT GIT COMMANDS
         tell git to push your saved changes to an external source. Usually that source is github
         EX: git push [url] -u main
         
-HOW TO SAAVE WORK
+HOW TO SAVE WORK - run "git init" if not done already
 
-1. make sure work is saved in editor
+1. make sure work is saved in editor 
 2. run "git add ." (or, replace the . with a filename or 2)
 3. run "git commit -m "[description]" "
 4. run git push [url] -u main
 
+WORKING AS A TEAM
 
+    git pull
+        get changes from online git repo and apply them to your current repo
+        Ex: git pull [url]
