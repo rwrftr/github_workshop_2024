@@ -20,5 +20,12 @@ IMPORTANT GIT COMMANDS
     git push
         tell git to push your saved changes to an external source. Usually that source is github
         EX: git push [url] -u main
+        
+HOW TO SAAVE WORK
+
+1. make sure work is saved in editor
+2. run "git add ." (or, replace the . with a filename or 2)
+3. run "git commit -m "[description]" "
+4. run git push [url] -u main
 
 
